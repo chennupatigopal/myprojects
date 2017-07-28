@@ -1,6 +1,10 @@
 package com.server.obj;
 import javax.xml.bind.annotation.XmlRootElement;
-
+/**
+ * It's a vo class
+ * @author gplchn
+ *
+ */
 @XmlRootElement(name = "Account")
 public class Account {
     private long id;
