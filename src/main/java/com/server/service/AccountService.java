@@ -29,9 +29,17 @@ public class AccountService {
 		Account newAccount2 = new Account();
 		newAccount2.setId(2);
 		newAccount2.setName("Rachelle Ann de Guzman Reyes");
+		Account newAccount3 = new Account();
+        newAccount2.setId(3);
+        newAccount2.setName("Chiranjeevi chennupati");
+        Account newAccount4 = new Account();
+        newAccount2.setId(4);
+        newAccount2.setName("Gopal chennupati");
 
 		accounts.put("1", newAccount1);
 		accounts.put("2", newAccount2);
+		accounts.put("3", newAccount3);
+		accounts.put("4", newAccount4);
 
 	}
 
